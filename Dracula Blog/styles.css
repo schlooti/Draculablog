@@ -1,0 +1,404 @@
+header{
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 35px 100px 20px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+header nav ul{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-right: 24vh
+}
+header nav li{
+    margin: 0px 16px;
+    font-size: 24px;
+
+}
+
+header nav li:hover{
+    cursor: pointer;
+    color: #8C0000;
+}
+header nav li:first-child{
+    margin: 0;
+    padding-right: 6px
+}
+header nav li:last-child{
+    margin: 0 ;
+    padding-left: 6px;
+}
+@media(max-width: 1000px){
+    header{
+        text-align: center;
+        flex-direction: column;
+        padding: 20px 50px;
+    }
+    header img{
+        width: 75%;
+    }
+    header nav{
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 15vh;
+        
+    }
+    header h1{
+        margin-bottom: 15px;
+    }
+    #hero-pic{
+        max-height:50vh;
+    }
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+} 
+
+a:hover{
+    color:#8C0000
+}
+
+a:active{
+    transform: perspective(1)
+}
+
+/*-------------------------Main Pic--------------------*/
+
+#hero-pic{
+     background: gray;
+    color: white;
+    text-align: center;
+ 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url(img/highlights/Group.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    min-height: 100vh;
+    
+}
+
+
+/*--------------------About team--------------*/
+
+body{
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+}
+div{
+    border: 0;
+}
+
+h1 {
+    z-index: 10;
+    font-size: 42px;
+    display: inline;               
+    padding: 0;
+    margin: 6;
+    color: white;
+    font-family: 'UnifrakturCook';
+    text-decoration: none;        
+}   
+
+
+hr{
+    width: 150px;
+    height: 2px;
+    background-color: #8C0000;
+    border: 0;
+}
+
+
+div h3.title{
+ color: #131633;
+ text-transform: capitalize;
+ font-size: 40px;
+ margin-bottom: 35px;
+ text-align: center;
+ font-family: 'tangerine';
+}
+
+p{
+    font-family: sans-serif
+}
+
+
+div .about-bio{
+    padding: 0 32px
+}
+
+div .Adam{
+    margin: 0px 32px;
+}
+/*------------AMY---------------*/
+
+
+
+div .Amy{
+    display: flex;
+    margin: 0 px;
+    flex-direction: column;
+}
+
+div .amy-intro{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 24px;
+    margin: 0;
+    
+}
+
+div .amy-intro p{
+    padding-top: 3%;
+    margin: 0;
+}
+
+
+div .Amy p{
+    margin: 0 32px;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.pic{
+    width: vh;
+    height: 24vh;
+    border-radius: 45%;
+    margin-left: 40px;
+}
+
+.amy-crit{
+    padding-left: 32px
+}
+
+/*--------Sean------*/
+
+div .Sean{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+div .Sean-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 24px;
+    margin: 0;
+    
+}
+
+div .Sean-crit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+div .Sean p{
+    margin: 0 32px;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+}
+
+div .Sean-intro p{
+    padding-top: 3%;
+}
+/*--------Frosty------*/
+div. Frosty{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    
+}
+
+div .Frosty-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+div .Frosty-intro p{
+    width: 50%;
+    margin: 0 32px;
+    align-content: center;
+    justify-content: center;
+    padding-top: 4%
+}
+div .flash{
+    margin-left: 18vh;
+    margin-top: 6vh;
+}
+
+/*---------Stephanie----------*/
+div .Stephanie{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+div .Stephanie-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+div .Stephanie-intro p{
+    width: 50%;
+    margin: 0 32px;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1.5%;
+}
+
+.s-pres{
+    margin-left: 50vh;
+    margin-top: 6vh;
+}
+/*--------Megan----------*/
+.Megan-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.Megan-intro p{
+    width: 50%;
+    margin: 0 32px;
+    justify-content: center;
+    align-content: center;
+    padding-top: 3.5%;
+}
+/*--------Emily----------*/
+div. Emily{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    
+}
+
+div .Emily-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.Emily-intro p{
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    margin: 0 32px;
+    padding-top: 2%;
+}
+
+.Emily-crit{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+.Emily-crit img{
+    width: 25%;
+}
+
+/*---------Adam----------*/
+div .Adam{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+
+.Adam-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.Adam-intro p{
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    margin: 0 32px;
+    padding-top: 3.5%
+}
+
+Adam-crit{
+    display: flex;
+}
+
+.Adam-pic{
+    width: 50%;
+    margin-left: 50vh;
+    margin-top: 16px;
+}
+
+/*---------Sari----------*/
+.Sari-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.Sari-intro p{
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    margin: 0 32px;
+    padding-top: 4%;
+}
+
+.Sari-crit{
+    margin: 16px 32px;
+    
+}
+
+/*-----Marcgraf------*/
+div .Marcgraf{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+
+.Marcgraf-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.Marcgraf-intro p{
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    margin: 0 32px;
+    padding-top: 3.5%
+}
